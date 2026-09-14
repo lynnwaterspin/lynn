@@ -9,8 +9,8 @@ Bij deze repository horen:
 
 ## Leerlinggegevens
 
-Naam:  
-Klas:
+Naam:  lynn
+Klas:h4a
 
 ## Aan de slag
 
