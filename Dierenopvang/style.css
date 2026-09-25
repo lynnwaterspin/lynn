@@ -9,7 +9,7 @@ h1 {
 }
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: honeydew;
+    color: rgb(138, 95, 151);
 }
 
 p {
@@ -17,3 +17,31 @@ p {
     color: rgba(245, 0, 82, 0.63);
     font-size: 17px;
 }
+.row{
+    background-color: lightcyan ;
+    padding: 20pt;
+    border: 5pt;
+    margin: 10px;
+}
+
+.earth{
+    background-color: peachpuff;
+    padding: 20pt;
+    border: 5pt;
+    margin: 10px;
+}
+
+.peanut{
+    background-color: cornsilk;
+    padding: 20pt;
+    border: 5pt;
+    margin: 10px;
+}
+
+.sun{
+    background-color: rgb(248, 230, 230);
+    padding: 20pt;
+    border: 5pt;
+    margin: 10px;
+}
+
