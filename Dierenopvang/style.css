@@ -22,6 +22,7 @@ p {
     padding: 20pt;
     border: 5pt;
     margin: 10px;
+    border-radius: 35px;
 }
 
 .earth{
@@ -29,20 +30,24 @@ p {
     padding: 20pt;
     border: 5pt;
     margin: 10px;
+    border-radius: 35px;
 }
+
 
 .peanut{
     background-color: cornsilk;
     padding: 20pt;
     border: 5pt;
     margin: 10px;
+    border-radius: 35px;
 }
 
 .sun{
-    background-color: rgb(221, 184, 184);
+    background-color: rgb(219, 180, 180);
     padding: 20pt;
-    border: 5pt;
+    border: 50pt;
     margin: 10px;
+    border-radius: 35px;
 }
 img{
     width: 200px;
