@@ -52,3 +52,32 @@ p {
 img{
     width: 200px;
 }
+
+.grid-container-h4 {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 150px 50px 100px 100px 150px;
+    grid-template-areas:
+    "hdr hdr hdr hdr hdr "
+    "sd sd nv mn mn "
+    "sd sd nv mn mn "
+    "ftr ftr ftr ftr ftr ";
+    gap: 25px;
+}
+header {grid-area: hdr;}
+nav {grid-area: nv;}
+main {grid-area: mn;}
+aside {grid-area: sd;}
+footer {grid-area: ftr;}
+.grid-h4 ,header,nav,main,aside,footer {
+    padding: 10px;
+    place-items: center;
+    background-color: rgb(238, 210, 210);
+    border: 5px solid rgb(189, 137, 146);
+}
+.center , nav, aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(247, 247, 216);
+}
